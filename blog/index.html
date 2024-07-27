@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <header>
+        <div class="navdiv">
+            <a href="index.html">
+                <img id="header-icon" src="assets/header-icon.png" alt="header-icon">
+                <h3 id="header-title">
+                    <a href="">Cobee the coder</a>
+                </h3>
+            </a>
+            <div class="navbar">
+                <ul class="navlist">
+                    <li class="nav-item"><a href="">Project</a></li>
+                    <li class="nav-item"><a href="">Contact</a></li>
+                    <li class="nav-item"><a class="text-decoration:none;color:red" href="about.html">About us</a></li>
+                </ul>
+            </div>
+        </div>
+        <section id="jumbotron">
+            <div class="jumbotron">
+              <h1 class="jumbotron-title" onmouseover="secondTitle(this)" onmouseout="backTitle(this)">Get Programming  
+              Tips here!</h1>
+              <div class="header-flex">
+                <div>
+                  <h2 class="jumbotron-text">Are you a   
+                  newcomer in Programming? <br> Learn   
+                  through <span  
+                  style="color: #f4a261;">Simple  
+          </span> Game and Website!</h2>
+            <div class="mini-text-flex">
+                    <p class="mini-text">Learn   
+                    basic programming here <i class="far fa-hand-point-up"></i></p>
+                  </div>                          
+                </div>
+                <div>
+                  <img class="jumbotron-img"  
+                  src="assets/john.jpg" alt="joe"
+                  width="500px;" height="300" onmouseout="changeImageBack(this)" onmouseover="changeImage(this)">
+                </div>
+              </div>
+            </div>
+           </section>
+           <svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#264653" fill-opacity="1" d="M0,256L80,261.3C160,267,320,277,480,240C640,203,800,117,960,112C1120,107,1280,181,1360,218.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+           <svg class="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6EABC4" fill-opacity="1" d="M0,256L80,261.3C160,267,320,277,480,240C640,203,800,117,960,112C1120,107,1280,181,1360,218.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+           <svg class="wave3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,256L80,261.3C160,267,320,277,480,240C640,203,800,117,960,112C1120,107,1280,181,1360,218.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+           <br>
+           <br>
+           <br>
+           <br>
+        </header>
+    <main>
+        <div class="main-content">
+            <aside>
+                <div>
+                    <h3 class="aside-title">It's Cobee</h3>
+                    <img class="profile-picture" src="assets/cobee.png" alt="cobee" width="150px" height="auto">
+                    <div class="toggle">
+                        <button class="btn" id="green">
+                            <i class="fa fa-thumbs-up fa-lg"></i>
+                        </button>
+                        <button class="btn" id="red">
+                            <i class="fa fa-thumbs-down fa-lg"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="search-tags-container">
+                    <div class="input-tag">
+                        <h3 class="aside-title">Search here</h3>
+                        <input type="text" id="myInput" placeholder="Search..">
+                        <span class="addBtn" onclick="newElement()">Search</span>
+                    
+                        <ul id="myUl" class="search-tags-list">
+                            <li class="search-tags-item">Html</li>
+                            <li class="search-tags-item">Code</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <div class="content">
+                <article id="video">
+                    <div class="item-video">
+                        <h3 class="article-title">What is Coding?</h3>
+                        <iframe width="500" height="350" src="https://www.youtube.com/embed/hb7Q33ysCwI?si=GRGCZGBHVeH3LdIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="500" height="350" src="https://www.youtube.com/embed/XMZFUnAgOqs?si=rVGCnFITxJgesku3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </article>
+                <article id="maps">
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72750.58312399701!2d-1.8009656524326825!3d55.262719348473006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487d4e8f39480897%3A0x4142d5775826be2f!2sMcDonald&#39;s!5e0!3m2!1sen!2suk!4v1713593774079!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+                <article id="my-project"> 
+                    <h3 class="article-title">My Project</h3>
+                    <div class="project-container">
+                       <div class="project">
+                         <img src="assets/rat1.png"
+                         width="300px" height="210px">
+                         <h4 class="project-title">Rat Dodgers 4</h4>
+                         <p class="project-description">game of all time</p>
+                       </div>
+                       <div class="project">
+                         <img src="assets/rat2.png" 
+                         width="300px" height="210px">
+                         <h4 class="project-title">Rat Dodgers 2</h4>
+                         <p class="project-description">game of all time</p>
+                       </div>
+                    </div>
+                   </article>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="main-footer">
+            <h3 class="info-top">Cobee The Junior Programmer</h3>
+            <div class="social-media">
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-envelope"></i>
+            </div>    
+            <p class="info-center">Copyright &copy; 2021. Cobee. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
